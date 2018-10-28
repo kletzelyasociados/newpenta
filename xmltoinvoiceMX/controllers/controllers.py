@@ -8,8 +8,8 @@ class MyModule(http.Controller):
 
      @http.route('/newpenta/xmltoinvoiceMX/objects/', auth='public')
      def list(self, **kw):
-         return http.request.render('xmllisting', {
-             'root': '/newpenta/xmltoinvoiceMX',
+         return http.request.render('xml.listing', {
+             'root': '/newpenta/xmltoinvoiceMX/',
              'objects': http.request.env['xml'].search([]),
          })
 
