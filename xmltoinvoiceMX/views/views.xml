@@ -14,8 +14,6 @@
           <field name="subtotal"/>
           <field name="total"/>
           <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
         </tree>
       </field>
     </record>
@@ -25,7 +23,6 @@
 
     <record model="ir.actions.act_window" id="xml.action_window">
       <field name="name">my_module window</field>
-      <field name="res_model">xml</field>
       <field name="res_model">xml</field>
       <field name="view_mode">tree,form</field>
     </record>
