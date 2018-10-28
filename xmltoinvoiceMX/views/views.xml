@@ -3,9 +3,8 @@
     <!-- explicit list view definition -->
 
     <record model="ir.ui.view" id="xml.list">
-    <record model="ir.ui.view" id="my_module.list">
-      <field name="name">my_module list</field>
-      <field name="model">my_module.my_module</field>
+      <field name="name">xml list</field>
+      <field name="model">xml</field>
       <field name="arch" type="xml">
         <tree>
           <field name="rfc_emisor"/>
