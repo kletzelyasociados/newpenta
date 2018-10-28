@@ -3,6 +3,7 @@
     <!-- explicit list view definition -->
 
     <record model="ir.ui.view" id="xml.list">
+    <record model="ir.ui.view" id="my_module.list">
       <field name="name">my_module list</field>
       <field name="model">my_module.my_module</field>
       <field name="arch" type="xml">
@@ -13,6 +14,9 @@
           <field name="nombre_receptor"/>
           <field name="subtotal"/>
           <field name="total"/>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
         </tree>
       </field>
     </record>
@@ -23,6 +27,7 @@
     <record model="ir.actions.act_window" id="my_module.action_window">
       <field name="name">my_module window</field>
       <field name="res_model">xml</field>
+      <field name="res_model">my_module.my_module</field>
       <field name="view_mode">tree,form</field>
     </record>
 
@@ -44,8 +49,8 @@
 
 
     <!-- Top menu item -->
-
     <menuitem name="xml" id="my_module.menu_root"/>
+    <menuitem name="my_module" id="my_module.menu_root"/>
 
     <!-- menu categories -->
 
