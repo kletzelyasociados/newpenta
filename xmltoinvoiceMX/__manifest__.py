@@ -1,23 +1,23 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "my_module",
+    'name': "XML To Invoice MXN",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'version': '0.0.1',
+
+    'summary': "Module to convert an XML CFDI file to an Odoo invoice",
+
 
     'description': """
-        Long description of module's purpose
+    Module to convert an XML CFDI file to an Odoo invoice
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Jose Manuel Fabela Vilchis",
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
-    # for the full list
+    'website': "https://www.linkedin.com/in/josemanuelvilchis/",
+
     'category': 'Uncategorized',
-    'version': '0.1',
+
+    'version': '0.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],

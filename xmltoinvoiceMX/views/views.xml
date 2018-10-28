@@ -7,9 +7,12 @@
       <field name="model">my_module.my_module</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
+          <field name="rfc_emisor"/>
+          <field name="nombre_emisor"/>
+          <field name="rfc_receptor"/>
+          <field name="nombre_receptor"/>
+          <field name="subtotal"/>
+          <field name="total"/>
         </tree>
       </field>
     </record>
@@ -19,7 +22,7 @@
 
     <record model="ir.actions.act_window" id="my_module.action_window">
       <field name="name">my_module window</field>
-      <field name="res_model">my_module.my_module</field>
+      <field name="res_model">xml</field>
       <field name="view_mode">tree,form</field>
     </record>
 
