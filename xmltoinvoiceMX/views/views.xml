@@ -13,7 +13,6 @@
           <field name="nombre_receptor"/>
           <field name="subtotal"/>
           <field name="total"/>
-          <field name="name"/>
         </tree>
       </field>
     </record>
